@@ -1,0 +1,8 @@
+header(){ cat <<'EOF'
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ольга Иванова — сопрано</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/css/style.css"></head><body><div class="door"><span></span><span></span></div><div class="preloader"><div><b>Olga Ivanova</b><span>SOPRANO</span></div></div><header class="nav"><a class="brand" href="index.html">Olga Ivanova</a><nav><a href="about.html">О себе</a><a href="events.html">Афиша</a><a href="video.html">Видео</a><a href="audio.html">Аудио</a><a href="contacts.html">Контакты</a></nav></header>
+EOF
+}
+footer(){ cat <<'EOF'
+<footer class="footer"><small>Maestro Musical Concert Agency</small><b>Opera<br>Luxury</b></footer><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script><script src="assets/js/main.js"></script></body></html>
+EOF
+}
